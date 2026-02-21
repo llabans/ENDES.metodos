@@ -1,0 +1,31 @@
+Package: ENDES.metodos
+Type: Package
+Title: ENDES.metodos: Metodos Estadisticos para Encuestas Poblacionales (Peru)
+Version: 0.1.0
+Author: Luis Maximiliano Laban Seminario
+Maintainer: Luis Laban <luis.labans@gmail.com>
+Description: Prototipo metodologico para inferencia basada en diseño complejo de
+    encuestas poblacionales peruanas (ENDES, ENAHO). Proporciona funciones de
+    estimacion ponderada, regresion GLM survey-weighted, estimacion por dominio
+    e indicadores estandar DHS. Complementa al paquete ENDES.PE: Repo: https://github.com/avallecam/ENDES.PE.
+License: GPL-3
+Encoding: UTF-8
+Imports:
+    survey (>= 4.0),
+    broom (>= 1.0),
+    tibble (>= 3.0),
+    rlang (>= 0.2),
+    stats,
+    dplyr (>= 0.5),
+    sae (>= 1.3),
+    sf (>= 1.0),
+    spdep (>= 1.2)
+Suggests:
+    ENDES.PE,
+    magrittr (>= 1.0),
+    srvyr (>= 1.0),
+    readxl (>= 1.4),
+    stringr (>= 1.4),
+    testthat (>= 3.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
