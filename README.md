@@ -104,8 +104,17 @@ library(ENDES.metodos)
 
 Para descargar y organizar bases públicas de la ENDES puede utilizarse también:
 
+### Instalación opcional de ENDES.PE
+[`ENDES.PE`](https://github.com/avallecam/ENDES.PE) es un paquete complementario que facilita la descarga y organización de bases públicas de la ENDES. No es necesario para utilizar las funciones principales de `ENDES.metodos`.
+
 ```r
-remotes::install_github("avallecam/ENDES.PE")
+if (!requireNamespace("remotes", quietly = TRUE)) {
+  install.packages("remotes")
+}
+
+if (!requireNamespace("ENDES.PE", quietly = TRUE)) {
+  remotes::install_github("avallecam/ENDES.PE")
+}
 library(ENDES.PE)
 ```
 
