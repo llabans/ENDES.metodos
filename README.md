@@ -349,7 +349,7 @@ citation("ENDES.metodos")
 
 Referencia provisional:
 
-> Labán Seminario LM. *ENDES.metodos: métodos estadísticos para encuestas poblacionales en Perú*. Paquete de R, versión experimental 0.1.0.
+> Labán-Seminario LM. *ENDES.metodos: métodos estadísticos para encuestas poblacionales en Perú*. Paquete de R, versión experimental 0.1.0.
 
 ---
 
