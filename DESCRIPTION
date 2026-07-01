@@ -21,7 +21,6 @@ Imports:
     sf (>= 1.0),
     spdep (>= 1.2)
 Suggests:
-    ENDES.PE,
     magrittr (>= 1.0),
     srvyr (>= 1.0),
     readxl (>= 1.4),
