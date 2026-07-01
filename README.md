@@ -1,5 +1,7 @@
 # ENDES.metodos
 
+[![R-CMD-check](https://github.com/llabans/ENDES.metodos/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/llabans/ENDES.metodos/actions/workflows/R-CMD-check.yaml)
+
 **Herramientas reproducibles en R para el análisis de encuestas poblacionales complejas y la estimación de áreas pequeñas en Perú**
 
 > **Estado del proyecto:** versión experimental `0.1.0`, en desarrollo y validación activa.
