@@ -322,7 +322,7 @@ La estrategia de validación incluye:
 Las siguientes etapas del proyecto incluyen:
 
 * ampliar las pruebas unitarias y de integración;
-* implementar integración continua mediante R CMD check;
+* ampliar la integración continua con pruebas en múltiples versiones de R;
 * desarrollar estudios formales de simulación;
 * validar indicadores frente a estimaciones oficiales reproducibles;
 * mejorar el manejo de dominios sin muestra;
